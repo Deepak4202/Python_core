@@ -1,9 +1,9 @@
 # 2.	Student Salary System
 # Create an Student class with:
 # •	emp_name
-# •	salary
+# •	salarys
 # •	display_details()
-# Create a Manager class that inherits Student and adds a bonus(). Display the total salary.
+# Create a Manager class that inherits Student and adds a bonus(). Display the total salarys.
 
 class Employee():
     def __init__(self):

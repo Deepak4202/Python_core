@@ -1,5 +1,5 @@
-# 3.	Create an Student class with instance variables emp_id, name, salary.
-# Write an instance method increment_salary(amount) to increase the employee's salary by the given amount.
+# 3.	Create an Student class with instance variables emp_id, name, salarys.
+# Write an instance method increment_salary(amount) to increase the employee's salarys by the given amount.
 
 class  BankAccount:
 
@@ -19,6 +19,6 @@ class  BankAccount:
 
 
 obj = BankAccount()
-print("salary before ----- > {}".format(obj.salary))
+print("salarys before ----- > {}".format(obj.salary))
 
 obj.increment_salary(10000)

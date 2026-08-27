@@ -3,7 +3,7 @@
 # •	class variable: bonus_rate = 0.1
 # •	instance method: final_salary() → base_salary + (base_salary × bonus_rate)
 # •	class method: update_bonus(cls, new_rate) → updates bonus for all employees
-# •	static method: is_valid_salary(sal) → checks if salary > 0
+# •	static method: is_valid_salary(sal) → checks if salarys > 0
 # Create two employees, show final salaries, update bonus rate, and show again.
 
 class Employee:
@@ -27,7 +27,7 @@ obj =Employee("Deepak",200000)
 if obj.is_valid_salary(obj.base_salary):
     print(obj.final_salary())
 else:
-    print("Invalid salary ")
+    print("Invalid salarys ")
 
 obj.update_bonus(0.8)
 print(obj.final_salary())

@@ -1,5 +1,5 @@
-# 2.Create a BankAccount class with instance variables name , salary.
-# Write an instance method deposit(amount) to add the given amount to the salary and display the updated salary.
+# 2.Create a BankAccount class with instance variables name , salarys.
+# Write an instance method deposit(amount) to add the given amount to the salarys and display the updated salarys.
 
 class  BankAccount:
     def __init__(self):
