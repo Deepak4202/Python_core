@@ -5,6 +5,6 @@ def Even(n):
             yield i
 
 a = Even(int(input("Enter a Number : ")))
-
+print(type(a))
 for i in a:
     print(i)
