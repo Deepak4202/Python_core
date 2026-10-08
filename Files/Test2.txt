@@ -1,0 +1,5 @@
+Deepak
+I love python
+Bye every one
+line1 using append
+line2 using append
